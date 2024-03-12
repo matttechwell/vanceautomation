@@ -21,19 +21,19 @@ function App() {
 		}
 	}, []);
 
-	const location = useLocation(); // Hook to get the current location
+	const location = useLocation(); 
 
 	return (
-		<AnimatePresence mode='wait'> // Updated based on the error message
+		<AnimatePresence mode='wait'>
 			<m.div
-				key={location.pathname} // Important for triggering animations on route change
+				key={location.pathname} 
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				exit={{ opacity: 0 }}
 				transition={{ duration: 0.5 }}
 				className="App"
 			>
-				<Routes location={location}> // Pass location to Routes for correct handling of navigation
+				<Routes location={location}> =
 					<Route path="/" element={<Homepage />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/projects" element={<Projects />} />

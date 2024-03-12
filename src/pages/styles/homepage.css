@@ -42,9 +42,30 @@
 }
 
 .homepage-image-wrapper {
-	overflow: hidden;
-	border-radius: 10%;
-	transform: rotate(3deg);
+	overflow: none;
+
+}
+
+.homepage-image {
+	transition: transform 0.3s ease-in-out;
+	/* Smooth transition for scaling */
+}
+
+.homepage-image:hover {
+	transform: scale(1.05);
+	/* Scales the image up to 105% of its original size */
+}
+
+.homepage-image-entrance {
+	opacity: 0;
+	transform: scale(0.95);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Final state with full size and opacity */
+.homepage-image-visible {
+	opacity: 1;
+	transform: scale(1);
 }
 
 .homepage-image-wrapper img {
@@ -100,7 +121,8 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
