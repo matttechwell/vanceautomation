@@ -13,17 +13,22 @@
 	align-items: center;
 	position: fixed;
 	top: 3vh;
+	left: 50%; /* Center the navbar */
+	transform: translateX(-50%); /* Adjust translation for centering */
 	z-index: 999;
+	width: 80%; /* Default width to maintain responsiveness */
+	max-width: 1000px; /* Match the content wrapper's max width */
 }
 
 .nav-background {
-	width: 380px;
-	height: 40px;
-	padding-left: 0%;
-	padding-right: 0%;
-	background: #fff;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 40px;
+    width: 100%; /* Make it fill the navbar */
+    height: 40px;
+    padding-left: 0%;
+    padding-right: 0%;
+    background: rgba(255, 255, 255, 0.5); /* Adjust transparency as needed */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
 }
 
 .nav-list {
@@ -55,20 +60,16 @@
 	transition: color 0.3s ease-in-out;
 }
 
-@media (max-width: 600px) {
-	.navbar {
-		margin-left: 25%;
-		margin-right: 25%;
-		width: 80%;
-		font-size: 80%;
+@media (max-width: 1024px) {
+	.navbar, .nav-background {
+		max-width: 980px; /* Adjust to match content wrapper's max width at this breakpoint */
 	}
+}
 
-	.nav-background {
-		width: 80%;
-		height: 40px;
-	}
-
-	.nav-item {
-		font-weight: bold;
+@media (max-width: 800px) {
+	.navbar, .nav-background {
+		width: 90%; /* Adjust width to match content wrapper's settings */
+		margin: 0 auto; /* Centering */
+		padding: 0 10px; /* If you need some padding inside the navbar */
 	}
 }
