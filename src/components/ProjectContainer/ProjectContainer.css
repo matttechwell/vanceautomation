@@ -43,8 +43,6 @@
   position: relative;
   margin-top: 10px;
   max-width: 100%;
-  height: auto;
-  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 }
 
 .project .link--icon {
