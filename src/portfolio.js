@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/AxelAlinsky',
-  title: 'Alex',
+  title: '.A',
 }
 
 const about = {
@@ -21,12 +21,21 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Sauce Demo Automation',
+    name: 'Mocha Demo Automation',
+    imageUrl: 'https://wallpapercave.com/wp/wp9119024.jpg',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://www.google.com/',
+      `The automation framework utilizes Mocha with TypeScript to create efficient and reliable tests for the SauceDemo website. Leveraging TypeScript's static typing and Mocha's testing capabilities, the framework ensures organized, modular tests with robust assertions and detailed reporting, enhancing maintainability and test coverage.`,
+    stack: ['Mocha', 'TypeScript'],
+    sourceCode: 'https://github.com/AxelAlinsky/mocha-workspace-automation',
+    livePreview: 'https://github.com/AxelAlinsky/mocha-workspace-automation',
+  },
+  {
+    name: 'Playwright Demo Automation',
+    description:
+      `This automation system combines TypeScript and Playwright to automate tasks on the SauceDemo website. TypeScript helps ensure code reliability, while Playwright simplifies browser automation. Together, they enable smooth interaction with the website's elements, making it easier to create and maintain tests. This setup ensures that testing the SauceDemo website is efficient and effective.`,
+    stack: ['Playwright', 'TypeScript'],
+    sourceCode: 'https://github.com/AxelAlinsky/playwright-workspace-automation',
+    livePreview: 'https://github.com/AxelAlinsky/mocha-workspace-automation',
   },
 ]
 
