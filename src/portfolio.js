@@ -22,7 +22,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Mocha Demo Automation',
-    imageUrl: 'https://raw.githubusercontent.com/AxelAlinsky/alexautomation/main/public/image/playwright-automation.png',
+    imageUrl: 'https://raw.githubusercontent.com/AxelAlinsky/alexautomation/main/public/image/mocha-automation.png',
     description:
       `The automation framework utilizes Mocha with TypeScript to create efficient and reliable tests for the SauceDemo website. Leveraging TypeScript's static typing and Mocha's testing capabilities, the framework ensures organized, modular tests with robust assertions and detailed reporting, enhancing maintainability and test coverage.`,
     stack: ['Mocha', 'TypeScript'],
