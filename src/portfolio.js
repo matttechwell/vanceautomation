@@ -31,6 +31,7 @@ const projects = [
   },
   {
     name: 'Playwright Demo Automation',
+    imageUrl: 'https://raw.githubusercontent.com/AxelAlinsky/alexautomation/main/public/image/playwright-automation.png',
     description:
       `This automation system combines TypeScript and Playwright to automate tasks on the SauceDemo website. TypeScript helps ensure code reliability, while Playwright simplifies browser automation. Together, they enable smooth interaction with the website's elements, making it easier to create and maintain tests. This setup ensures that testing the SauceDemo website is efficient and effective.`,
     stack: ['Playwright', 'TypeScript'],
