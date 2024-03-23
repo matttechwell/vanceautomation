@@ -1,6 +1,9 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  /* background-image: url('../../../public/image/background-city.jpg'); */
+  /* background-size: cover; 
+  background-position: center;  */
 }
 
 .about__name {
