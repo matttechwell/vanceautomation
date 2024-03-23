@@ -10,7 +10,7 @@ const about = {
   role: 'QA Automation Engineer',
   description:
     'A seasoned Senior QA Automation Engineer located in Bangkok with extensive experience in guiding sophisticated automation approaches. My proficiency in leveraging Python, TypeScript, Robot Framework, Selenium, and Playwright empowers me to craft and sustain cutting-edge testing frameworks and CI/CD pipelines, significantly enhancing operational efficiency and product quality across diverse tech industries. ',
-  resume: 'https://example.com',
+  resume: 'https://raw.githubusercontent.com/AxelAlinsky/alexautomation/feat/add-resume/public/resume/Alex.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/mattapichai/',
     github: 'https://github.com/AxelAlinsky',
