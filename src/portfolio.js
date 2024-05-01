@@ -38,6 +38,21 @@ const projects = [
     sourceCode: 'https://github.com/VanceTechwell/playwright-workspace-automation',
     livePreview: 'https://github.com/VanceTechwell/mocha-workspace-automation',
   },
+  {
+    name: 'Budget Tracker',
+    imageUrl: 'https://raw.githubusercontent.com/VanceTechwell/Vanceautomation/main/public/image/budget-tracker.png',
+    description:
+      `Originally inspired by a YouTube tutorial, this budget tracker application has been extensively customized and enhanced with additional features to meet unique user needs. It provides robust tools for managing finances effectively, with a focus on a seamless and responsive user experience through the integration of modern web technologies.`,
+    stack: [
+      'Next.js',
+      'React',
+      'React Hook Form',
+      'Zod',
+      'Prisma',
+      'Tailwind CSS',
+    ],
+    livePreview: 'https://budget-app-sable-beta.vercel.app/',
+  },
 ]
 
 const skills = [
