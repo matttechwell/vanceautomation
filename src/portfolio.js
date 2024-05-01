@@ -56,8 +56,6 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
@@ -76,6 +74,11 @@ const skills = [
   'Kubernetes',
   'Jenkins',
   'AWS',
+  'Next.js',
+  'React Hook Form',
+  'Zod',
+  'Prisma',
+  'Tailwind CSS',
 ]
 
 const contact = {
