@@ -2,7 +2,14 @@
   position: fixed;
   bottom: 2em;
   right: 4em;
-  background-color: transparent;
+  transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+  box-shadow: var(--shadow); /* Add shadow */
+  border-radius: 12px; /* Add border radius */
+}
+
+.scroll-top:hover {
+  transform: scale(1.1); /* Increase size when hovered */
+  color: var(--clr-primary); /* Change text color when hovered */
 }
 
 @media (max-width: 900px) {

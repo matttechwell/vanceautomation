@@ -6,23 +6,23 @@
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-bg: hsl(0, 0%, 100%); /* --background */
+  --clr-bg-alt: hsl(0, 0%, 100%); /* --card */
+  --clr-fg: hsl(240, 10%, 3.9%); /* --foreground */
+  --clr-fg-alt: hsl(240, 10%, 3.9%); /* --card-foreground */
+  --clr-primary: hsl(346.8, 77.2%, 49.8%); /* --primary */
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: hsl(20, 14.3%, 4.1%); /* --background-dark */
+  --clr-bg-alt: hsl(24, 9.8%, 10%); /* --card-dark */
+  --clr-fg: hsl(0, 0%, 95%); /* --foreground-dark */
+  --clr-fg-alt: hsl(0, 0%, 95%); /* --card-foreground-dark */
+  --clr-primary: hsl(346.8, 77.2%, 49.8%); /* --primary */
+  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+
 
 main {
   max-width: 1100px;
